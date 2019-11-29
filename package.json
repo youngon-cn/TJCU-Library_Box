@@ -1,0 +1,22 @@
+{
+  "name": "tjcu_box",
+  "version": "0.1.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL",
+  "dependencies": {
+    "commander": "^4.0.0",
+    "consola": "^2.10.1",
+    "dayjs": "^1.8.16",
+    "node-schedule": "^1.3.2",
+    "superagent": "^5.1.0",
+    "word-table": "^1.0.3"
+  },
+  "bin": {
+    "box": "./bin/box.js"
+  }
+}
